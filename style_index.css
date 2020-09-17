@@ -39,16 +39,16 @@
 
 .links_menu{
   display: inline-block;
-  border-style: solid;
+  border-style: none;
   padding: 2vh;
   color: black;
   font-size: 30px;
   text-decoration: none;
-  background-color: grey;
+  background-color: none;
 }
 .links_menu:hover{
-  color: black;
-  background-color: #DCDCDC;
+  color: red;
+  background-color: #F1F1F1;
 }
 
 .button_langage{

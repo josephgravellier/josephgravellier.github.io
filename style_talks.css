@@ -29,16 +29,16 @@
 .links_menu{
   vertical-align: top;
   display: inline-block;
-  border-style: solid;
+  border-style: none;
   padding: 2vh;
   color: black;
   font-size: 30px;
   text-decoration: none;
-  background-color: grey;
+  background-color: none;
 }
 .links_menu:hover{
-  color: black;
-  background-color: #DCDCDC;
+  color: red;
+  background-color: #F1F1F1;
 }
 
 .talks{
@@ -49,12 +49,12 @@
   text-align: left; 
   font-size : 40px;
   font-weight: bold;
-  border-style: solid;
+  border-style: none;
   margin-top: 5%;
 }
 .list_talks{
   display: inline-block;   	
   text-align: left; 
   font-size : 20px;
-  border-style: solid;
+  border-style: none;
 }
