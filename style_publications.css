@@ -31,6 +31,7 @@
   vertical-align: top;
   display: inline-block;
   border-style: solid;
+  
   padding: 2vh;
   color: black;
   font-size: 30px;
@@ -57,5 +58,5 @@
   display: inline-block;   	
   text-align: left; 
   font-size : 20px;
-  border-style: none;
+  border-left:solid black 3px;
 }

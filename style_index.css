@@ -90,14 +90,13 @@
 }
 .text_presentation{
  width: 90%;
- font-size : 15px;
+ font-size : 17px;
  font-family: Courier;
  font-weight: 500;
  text-align: justify;
 }
 
 .links_presentation{
- width: 90%; 
  text-align: center; 
 }
 .logos{  
