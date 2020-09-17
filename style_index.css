@@ -46,11 +46,11 @@
   color: black;
   font-size: 30px;
   text-decoration: none;
-  background-color: grey;
+  background-color: #DCDCDC;
 }
 .links_menu:hover{
-  color: black;
-  background-color: #DCDCDC;
+  color: white;
+  background-color: grey;
 }
 
 .button_langage{
