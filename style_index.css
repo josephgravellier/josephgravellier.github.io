@@ -32,6 +32,9 @@ hr {
 }
 
 .menu{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   text-align: center;
   height: 1.5em;
   margin-top: 2%;
@@ -87,12 +90,13 @@ hr {
 .title_presentation{
  font-size: 40px;
  font-weight: bold;
- text-align: left;
+ text-align: center;
+ margin-bottom: 3%;
 }
 .text_presentation{
  width: 100%;
- font-size: 22px;
- font-family: cambria;
+ font-size: 20px;
+ font-family: helvetica;
  font-weight: 500;
  text-align: left;
  background-color: #F7F7F7;
@@ -108,7 +112,8 @@ hr {
 .title_news{
  font-size: 40px;
  font-weight: bold;
- text-align: left;
+ text-align: center;
+  margin-bottom: 3%;
 }
 .text_news{
  width: 100%;
