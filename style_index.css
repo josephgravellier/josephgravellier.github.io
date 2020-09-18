@@ -75,7 +75,7 @@ hr {
 
 .photo{
   border-radius: 50%;
-  border-style: double;
+  border-style: solid;
   border-width:0.3em;
   border-color: #A9A9A9;
   width: 10em;
@@ -93,19 +93,19 @@ hr {
 }
 .text_presentation{
  width: 90%;
- font-size : 17px;
- font-family: Courier;
+ font-size : 22px;
+ font-family: cambria;
  font-weight: 500;
  text-align: left;
- background-color: #F1F1F1;
+ background-color: #F7F7F7;
 }
 
 .links_presentation{
- text-align: center; 
+ text-align: left; 
 }
 .logos{  
   transition: transform .1s;
-  width: 7em;
+  width: 6em;
   margin-top: 10px;
   margin-left: 20px;
   margin-right: 20px;
