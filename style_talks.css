@@ -3,59 +3,87 @@
   font-family: Helvetica;
 }
 
+.col-menu{width: 15%;}
+.col-none{width: 15%;}
+.col-photo-name{width: 40%;
+	margin-left: 0%;}
+.col-presentation{width: 50%;}
+.col-presentation-logo{width: 12%;}
 .col-none{width: 19%;
           display: inline-block;}
-.col-menu{width: 19%}
-.col-menu-logo{width: 35%;}
-.col-main{width: 60%;}
-
 
 @media only screen and (max-width: 800px) {
   .col-menu{width: 100%;
          display: block;}
   .col-menu-logo{width: 5%;}
-  .col-main{width: 100%;}
   .col-none{display: none;}
+  .col-photo-name{width: 100%;
+	margin-left: 0%;}
+  .col-presentation{width: 100%;}
+  .col-presentation-logo{width: 20%;
+                         margin-left: 0%;}
+  .col-none{display:none;}
+}
+
+hr {
+    display: block;
+    height: 0.1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    color: #A9A9A9;
+    margin: 1em 0;
+    padding: 0;
 }
 
 .menu{
-  width:100%;
+  width:60%;
   text-align:center;
-}
-
-.link_home{
-  display: inline-block;
+  height: 3em;
+  margin-left: -8%
 }
 
 .links_menu{
-  vertical-align: top;
   display: inline-block;
-  border-style: solid;
+  border-style: none;
   padding: 2vh;
-  color: black;
-  font-size: 30px;
+  color: grey;
+  font-size: 25px;
   text-decoration: none;
-  background-color: #DCDCDC;
+  background-color: none;
 }
 .links_menu:hover{
-  color: white;
-  background-color: grey;
+  color: black;
+  background-color: none;
+  border-bottom:solid black 3px;
 }
 
-.talks{
-  text-align: center;
-}
+
 .title_talks{
   display: inline-block; 
   text-align: left; 
   font-size : 40px;
   font-weight: bold;
   border-style: none;
-  margin-top: 5%;
+  margin-top: 0%;
+  
 }
 .list_talks{
   display: inline-block;   	
   text-align: left; 
   font-size : 20px;
-  border-left:solid black 3px;
+  margin-left: 8%
 }
+
+.talk-title {
+ text-decoration:none
+}
+.talk-title:hover {
+ text-decoration:underline
+}
+.talk-title:hover img {
+ box-shadow:0 0 10px rgba(0,0,0,0.25)
+}
+.talk-title {
+ color:#808000
+}
+
