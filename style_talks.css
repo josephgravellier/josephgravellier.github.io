@@ -7,6 +7,9 @@
 .col-menu { width: 80%; }
 .col-main { width: 80%; }
 
+ul { display: table; width: 100%;}
+ul li a { padding: 5px 10px;}
+
 @media only screen and (max-width: 800px) {
   .col-none { display: none; }
   .col-menu { width: 100%; }
@@ -25,10 +28,7 @@ hr {
 
 
 .menu{
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  text-align: center;
+  text-align: left;
   height: 1.5em;
   margin-top: 2%;
   margin-left: 7%;
