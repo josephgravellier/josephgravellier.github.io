@@ -3,26 +3,14 @@
   font-family: Helvetica;
 }
 
-.col-menu{width: 15%;}
-.col-none{width: 15%;}
-.col-photo-name{width: 40%;
-	margin-left: 0%;}
-.col-presentation{width: 50%;}
-.col-presentation-logo{width: 12%;}
-.col-none{width: 19%;
-          display: inline-block;}
+.col-none { width: 10%; }
+.col-menu { width: 80%; }
+.col-main { width: 80%; }
 
 @media only screen and (max-width: 800px) {
-  .col-menu{width: 100%;
-         display: block;}
-  .col-menu-logo{width: 5%;}
-  .col-none{display: none;}
-  .col-photo-name{width: 100%;
-	margin-left: 0%;}
-  .col-presentation{width: 100%;}
-  .col-presentation-logo{width: 20%;
-                         margin-left: 0%;}
-  .col-none{display:none;}
+  .col-none { display: none; }
+  .col-menu { width: 100%; }
+  .col-main { width: 80%; }
 }
 
 hr {
@@ -36,30 +24,35 @@ hr {
 }
 
 .menu{
-  width:60%;
-  text-align:center;
-  height: 3em;
-  margin-left: -8%
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  height: 1.5em;
+  margin-top: 2%;
+  margin-left: 7%;
+  margin-right: 10%;
 }
 
 .links_menu{
+  vertical-align: middle;
   display: inline-block;
   border-style: none;
-  padding: 2vh;
   color: grey;
   font-size: 25px;
   text-decoration: none;
   background-color: none;
 }
 .links_menu:hover{
-  color: black;
+  color: grey;
   background-color: none;
-  border-bottom:solid black 3px;
+  transform: scale(1.2);
 }
 
 .publications{
   text-align: left;
 }
+
 .title_publications{
   display: inline-block; 
   text-align: left; 

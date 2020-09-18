@@ -110,10 +110,12 @@ hr {
  margin-right: 10%;
 }
 .title_news{
- font-size: 40px;
- font-weight: bold;
- text-align: center;
-  margin-bottom: 3%;
+ width: 100%;
+ font-size: 20px;
+ font-family: helvetica;
+ font-weight: 500;
+ text-align: left;
+ background-color: #D1D1D1;
 }
 .text_news{
  width: 100%;
@@ -121,6 +123,16 @@ hr {
  font-family: cambria;
  font-weight: 500;
  text-align: justify;
+ background-color: none;
+ margin-left: 0%;
+}
+
+.text_bottom{
+ width: 100%;
+ font-size: 15px;
+ font-family: cambria;
+ font-weight: 500;
+ text-align: center;
  background-color: none;
  margin-left: 0%;
 }
