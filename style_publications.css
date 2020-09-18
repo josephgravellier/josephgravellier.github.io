@@ -46,7 +46,7 @@ hr {
 .links_menu:hover{
   color: grey;
   background-color: none;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .publications{
