@@ -1,32 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> Joseph Gravellier </title>	
-  <meta name="viewport" content="width=device-width, initial-scale=1.0,  maximum-scale=1.00, minimum-scale=1.00">
-  <meta name="author" content="Joseph Gravellier">	
-  <link rel="stylesheet" href="style_index.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title> Joseph Gravellier </title>	
+<meta name="viewport" content="width=device-width, initial-scale=1.0,  maximum-scale=1.00, minimum-scale=1.00">
+<meta name="author" content="Joseph Gravellier">	
+<link rel="stylesheet" href="style_index.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
 <ul class="menu">
-  <li style="display: inline-block;"><a href="https://josephgravellier.github.io/" class="links_menu col-menu" width=10%><b>Home</b></a></li>	&nbsp;	&nbsp;	&nbsp;	&nbsp;
-  <li style="display: inline-block;"><a href="/publications/" class="links_menu col-menu">Publications</a></li>	&nbsp;	&nbsp;	&nbsp;	&nbsp;
-  <li style="display: inline-block;"><a href="/talks/" class="links_menu col-menu">Talks</a></li>
+	<li style="display: inline-block;"><a href="https://josephgravellier.github.io/" class="links_menu col-menu" width=10%><b>Home</b></a></li>	&nbsp;	&nbsp;	&nbsp;	&nbsp;
+	<li style="display: inline-block;"><a href="/publications/" class="links_menu col-menu">Publications</a></li>	&nbsp;	&nbsp;	&nbsp;	&nbsp;
+	<li style="display: inline-block;"><a href="/talks/" class="links_menu col-menu">Talks</a></li>
 </ul>
 
- <hr/>
- 
+<hr/>
+
 <div class = "photo_and_name col-photo-name">
 	<img src="https://josephgravellier.github.io/pictures/me_picture.png" class="photo"> <br/>
 	<b>Joseph Gravellier</b> <br/>
 	Ph.D Candidate <br/>
 	<i>Remote Hardware Attacks</i> <br/><br/>
 	Thales<br/>
-    Ecole des Mines de Saint-Etienne<br/>
-    
-   <div class="links_presentation">
+	Ecole des Mines de Saint-Etienne<br/>
+
+	<div class="links_presentation">
 		<a href="mailto:joseph.gravellier@emse.fr">
 		<img src="https://josephgravellier.github.io/pictures/email_logo.png" class="col-presentation-logo logos" ></a>
 		<a href="https://fr.linkedin.com/in/josephgravellier" target="_blank">
@@ -40,69 +40,73 @@
 
 <div class = "presentation col-presentation">
 
-    <div class="title_presentation">
-          About me<br/>
-    </div>
+	<div class="title_presentation">
+		About me<br/>
+	</div>
 
-    <div class="text_presentation">
-      I'm a computer security enthusiast evolving right between software and hardware worlds. <br/><br/>
-      My Ph.D is dedicated to the study of hardware attacks that can be remotely triggered by software code. <br/><br/>
-      - If you want to learn more about my professional background follow the linkedin link. <br/>
-      - If you want to access to my latest project click the github link. <br/>
-      - If you want to contact me click on the mailbox.<br/><br/>
-    </div>	
+	<div class="text_presentation">
+		I'm a computer security enthusiast evolving right between software and hardware worlds. <br/><br/>
+		My Ph.D is dedicated to the study of hardware attacks that can be remotely triggered by software code. <br/><br/>
+		- If you want to learn more about my professional background follow the linkedin link. <br/>
+		- If you want to access to my latest project click the github link. <br/>
+		- If you want to contact me click on the mailbox.<br/>
+	</div>	
 
 </div>
 
 <div class = "news col-news">
 
 	<div class="title_presentation">
-        Latest Achievements<br/>
+		Latest Achievements<br/>
+	</div>
+
+	<div class="title_news">
+		<b>September 17, 2020: New contribution !</b>
 	</div>
 	
-	<div class="title_news">
-    <b>September 17, 2020: New contribution !</b>
-  </div>
-  <br/><br/>
-  <div class="list_publications">
-  		<i class="fa fa-file-pdf-o"><b> <a class="pub-title" href="https://arxiv.org/pdf/2009.07773.pdf">
-    SideLine: How Delay-Lines (May) Leak Secrets from your SoC </a> </b> </i> <br/>        
+	<br/><br/>
+
+	<div class="list_publications">
+		<i class="fa fa-file-pdf-o"><b> <a class="pub-title" href="https://arxiv.org/pdf/2009.07773.pdf">
+		SideLine: How Delay-Lines (May) Leak Secrets from your SoC </a> </b> </i> <br/>        
 		<b>Joseph Gravellier</b>, Jean-Max Dutertre, Yannick Teglia, Philippe Loubet Moundi<br/>
-    <em>arXiv Preprint </em><br/>
-	  <a href="https://arxiv.org/pdf/2009.07773.pdf" class="nounderline"> 
-    <i class="fa fa-file-pdf-o" style="color:#bb0000;" title="PDF"></i> </a> <br/> <br/> 
-  </div>
-    
-   <div class="text_news">
-     <b>Abstract:</b><br/>
-     <i>To meet the ever-growing need for performance in silicon devices, SoC providers have been increasingly relying on software-hardware cooperation. By controlling hardware resources such as power or clock management from the software, developers earn the possibility to build more flexible and power efficient applications. Despite the benefits, these hardware components are now exposed to software code and can potentially be misused as open-doors to jeopardize trusted environments, perform privilege escalation or steal cryptographic secrets. In this work, we introduce SideLine, a novel side-channel vector based on delay-line components widely implemented in high-end SoCs. After providing a detailed method on how to access and convert delay-line data into power consumption information, we demonstrate that these entities can be used to perform remote power side-channel attacks. We report experiments carried out on two SoCs from distinct vendors and we recount several core-vs-core attack scenarios in which an adversary process located in one processor core aims at eavesdropping the activity of a victim process located in another core. For each scenario, we demonstrate the adversary ability to fully recover the secret key of an OpenSSL AES running in the victim core. Even more detrimental, we show that these attacks are still practicable if the victim or the attacker program runs over an operating system.</i>
+		<em>arXiv Preprint </em><br/>
+		<a href="https://arxiv.org/pdf/2009.07773.pdf" class="nounderline"> 
+		<i class="fa fa-file-pdf-o" style="color:#bb0000;" title="PDF"></i> </a> <br/> <br/> 
+	</div>
+
+	<div class="text_news">
+		<b>Abstract:</b><br/>
+		<i>To meet the ever-growing need for performance in silicon devices, SoC providers have been increasingly relying on software-hardware cooperation. By controlling hardware resources such as power or clock management from the software, developers earn the possibility to build more flexible and power efficient applications. Despite the benefits, these hardware components are now exposed to software code and can potentially be misused as open-doors to jeopardize trusted environments, perform privilege escalation or steal cryptographic secrets. In this work, we introduce SideLine, a novel side-channel vector based on delay-line components widely implemented in high-end SoCs. After providing a detailed method on how to access and convert delay-line data into power consumption information, we demonstrate that these entities can be used to perform remote power side-channel attacks. We report experiments carried out on two SoCs from distinct vendors and we recount several core-vs-core attack scenarios in which an adversary process located in one processor core aims at eavesdropping the activity of a victim process located in another core. For each scenario, we demonstrate the adversary ability to fully recover the secret key of an OpenSSL AES running in the victim core. Even more detrimental, we show that these attacks are still practicable if the victim or the attacker program runs over an operating system.</i>
 	</div>	
-  
-  <br/>
-  <br/>
+
+	<br/><br/>
+	
 	<div class="title_news">
-    <b>June 24, 2020: New Talk @JDD 2020 </b>
-  </div>
-  <br/><br/>
-  
-  <div class="list_publications">
-  	 <i class="fa fa-file-pdf-o"><b> <a class="pub-title" href="https://josephgravellier.github.io/documents/JDD_slideshow.pdf">
-   Remote Hardware Attacks: 20 months later, what's new?</a> </b> </i> <br/> 
-   <em>Journee de la Recherche, Centre de Microelectronique de Provence (CMP)</em>, Gardanne, France. 
-   <a href="https://josephgravellier.github.io/documents/JDD_slideshow.pdf" class="nounderline">
-   <i class="fa fa-file-pdf-o" style="color:#bb0000;" title="PDF"></i> </a> <br/> <br/> 
-  </div>
-    
-  <div class="text_bottom">
-End of the latest news. For additional information click on <a href="/publications/" class="text_bottom"> Publications</a> or  <a href="/talks/" class="text_bottom"> talks</a>
-    </div>
-  
- </div>
-		
+		<b>June 24, 2020: New Talk @JDD 2020 </b>
+	</div>
+	
+	<br/><br/>
+
+	<div class="list_publications">
+		<i class="fa fa-file-pdf-o"><b> <a class="pub-title" href="https://josephgravellier.github.io/documents/JDD_slideshow.pdf">
+		Remote Hardware Attacks: 20 months later, what's new?</a> </b> </i> <br/> 
+		<em>Journee de la Recherche, Centre de Microelectronique de Provence (CMP)</em>, Gardanne, France. 
+		<a href="https://josephgravellier.github.io/documents/JDD_slideshow.pdf" class="nounderline">
+		<i class="fa fa-file-pdf-o" style="color:#bb0000;" title="PDF"></i> </a> <br/> <br/> 
+	</div>
+
+	<div class="text_bottom">
+		End of the latest news. For additional information click on <a href="/publications/" class="text_bottom"> Publications</a> or  <a href="/talks/" class="text_bottom"> talks</a><br/>
+		© Joseph Gravellier 2020, All Rights Reserved
+	</div>
+
+</div>
+
 <ul class="menu">
-  <li style="display: inline-block;"><a href="https://josephgravellier.github.io/" class="links_menu col-menu" width=10%><b>Home</b></a></li>	&nbsp;	&nbsp;	&nbsp;	&nbsp;
-  <li style="display: inline-block;"><a href="/publications/" class="links_menu col-menu">Publications</a></li>	&nbsp;	&nbsp;	&nbsp;	&nbsp;
-  <li style="display: inline-block;"><a href="/talks/" class="links_menu col-menu">Talks</a></li>
+	<li style="display: inline-block;"><a href="https://josephgravellier.github.io/" class="links_menu col-menu" width=10%><b>Home</b></a></li>	&nbsp;	&nbsp;	&nbsp;	&nbsp;
+	<li style="display: inline-block;"><a href="/publications/" class="links_menu col-menu">Publications</a></li>	&nbsp;	&nbsp;	&nbsp;	&nbsp;
+	<li style="display: inline-block;"><a href="/talks/" class="links_menu col-menu">Talks</a></li>
 </ul>
 
 </body>
