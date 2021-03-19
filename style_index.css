@@ -5,8 +5,8 @@
 
 .col-none { width: 25%; }
 .col-menu { width: 100%; }
-.col-photo-name { width: 15%; }
-.col-presentation { width: 30%; }
+.col-photo-name { width: 50%; }
+.col-presentation { width: 50%; }
 .col-news { width: 50%; }
 
 ul { display: table; width: 100%;}
@@ -66,18 +66,18 @@ hr {
 
 .photo_and_name{
  display: inline-block;
- float: left;
+ float: center;
  text-align: center;
  margin-top: 3%;
  margin-left: 25%;
- margin-right: 5%;
+ margin-right: 25%;
  font-size: 20px;
 }
 
 @media only screen and (max-width: 1100px) {
 .photo_and_name{
  display: inline-block;
- float: left;
+ float: center;
  text-align: center;
  margin-top: 3%;
  margin-left: 5%;
@@ -98,8 +98,9 @@ hr {
 .presentation{
  display: inline-block;
  text-align: center;
- margin-top: 3%;
+ margin-top: 0%;
  margin-right: 25%;
+ margin-left: 25%;
 }
 
 @media only screen and (max-width: 1100px) {
