@@ -5,15 +5,57 @@
 
 .col-none { width: 25%; }
 .col-menu { width: 100%; }
-.col-main { width: 50%; }
+.col-main { width: 30%; }
 
 ul { display: table; width: 100%;}
 ul li a { padding: 5px 10px;}
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1500px) {
   .col-none { display: none; }
   .col-menu { width: 100%; }
   .col-main { width: 90%; }
+}
+
+#background_left {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 100%;
+  background-color: #DDDDDD;
+}
+
+#background_right {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-left: 70%;
+  width: 30%;
+  height: 100%;
+  background-color: #DDDDDD;
+
+}
+
+@media only screen and (max-width: 1500px) {
+
+  #background_left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #DDDDDD;
+  }
+
+  #background_right {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-left: 0%;
+    width: 0%;
+    height: 100%;
+    background-color: #DDDDDD;
+  }
 }
 
 hr {
@@ -26,38 +68,60 @@ hr {
     padding: 0;
 }
 
-.menu{
+.menu {
   text-align: center;
   height: 1.5em;
-  margin-top: 2%;
-  margin-left: 0%;
+  margin-top: 0%;
+  margin-left: -1.5%;
   margin-right: 0%;
+  border: solid;
+  border-style: solid;
+  border-color: #DDDDDD;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-width: 4px;
+  background-color: #FFFFFF;
 }
 
-.links_menu{
+.links_menu {
   vertical-align: middle;
   display: inline-block;
   border-style: none;
+  font: normal 1.2em "Courier";
   color: grey;
   font-size: 25px;
   text-decoration: none;
   background-color: none;
 }
-.links_menu:hover{
-  color: grey;
+
+.links_menu_current {
+  vertical-align: middle;
+  display: inline-block;
+  border-style: none;
+  font: bold 1.2em "Courier";
+  color: black;
+  font-size: 25px;
+  text-decoration: none;
   background-color: none;
-  transform: scale(1.1);
+}
+
+.links_menu:hover {
+  color: grey;
+  font: normal 1.2em "Courier";
+  background-color: none;
+  transform: scale(1.5);
 }
 
 .list_talks{
   display: inline-block;
   text-align: left;
   font-size : 20px;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 35%;
+  margin-right: 35%;
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1500px) {
 .list_talks{
   display: inline-block;
   text-align: left;
